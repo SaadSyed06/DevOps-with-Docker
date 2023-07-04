@@ -1,0 +1,29 @@
+docker container run -d nginx
+
+docker ps -a
+
+docker container run -d nginx
+
+docker ps -a
+
+docker container run -d nginx
+
+docker ps -a
+
+docker ps -a
+
+docker stop suspicious_rosalind pedantic_borg 
+
+docker ps -a
+
+docker images
+
+docker images rm nginx:latest --force
+
+docker image rm nginx:latest --force
+
+docker images
+
+docker container rm suspicious_rosalind pedantic_borg nervous_hugle --force
+
+docker ps -a
