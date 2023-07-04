@@ -1,0 +1,11 @@
+docker run devopsdockeruh/simple-web-service:ubuntu
+
+docker ps -a
+
+docker start nice_haibt
+
+docker exec -it nice_haibt /bin/bash
+
+tail -f ./text.log
+
+ctrl+c
